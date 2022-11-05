@@ -1,0 +1,125 @@
+.work{
+    width: 100%;
+    margin-top: 150px;
+    img{
+        width: 100%;
+    }
+    .left{
+        margin-top: 30%;
+        text-align: left;
+        button{
+            background: #EDEBF7;
+            padding: 4px 12px;
+            border: none;
+            border-radius: 24px;    
+        }
+        h2.title{
+            text-align: left;
+        }
+        .flex{
+            margin-top: 40px;
+            button{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                padding: 12px 33px;
+                background-color: white;
+                border: 1px solid black ;
+                &:hover{
+                    background: #3C2769;
+                    cursor: pointer;
+                    transition: 1s;
+                    border: none;
+                    color: white;
+                }
+            }
+            a{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: black;
+                margin-left: 16px;
+            }
+        }
+    }
+    .more {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.90);
+        z-index: 1111;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+       .box{
+        width: 400px;
+        height: 240px;
+        background-color: #F3F5F7;
+        border-radius: 16px;
+        text-align: left;
+        .sm-block({
+           width: 300px;
+        });
+        .img{
+            margin-top: 5px;
+            padding-left: 30px;
+            display: flex;
+            align-items: center;
+            img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+        p.text{
+            font-size: 17px;
+            padding-left: 30px;
+            color: #697586;
+        }
+        .gogo{
+            width: 55px;
+            height: 55px;   
+        }
+        .flex{
+            margin-top: 20px;
+            padding-left: 30px;
+            display: flex;
+            h5{
+                padding-left: 16px;
+                margin: 5px 0px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #202939;
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding-top: 1px;
+                    color: #697586;
+                }
+            }
+        }
+       }
+        .close {
+          position: absolute;
+          top: 10px;
+          right: 30px;
+          display: block;
+          border: 2px solid rgb(1, 40, 95);
+          padding: 15px 20px;
+          color: white;
+          border-radius: 5px;
+          font-size: 18px;
+          transition: 0.3s;
+          cursor: pointer;
+          &:hover {
+            background-color: rgb(1, 40, 95);
+            transform: rotate(180deg);
+          }
+        }
+    }
+}

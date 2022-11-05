@@ -1,0 +1,65 @@
+@import "./params/mix";
+@import "./header.less";
+@import "./main.less";
+@import "./center.less";
+@import "./work.less";
+@import "./say.less";
+@import "./asked.less";
+@import "./blog.less";
+@import "./footer.less";
+
+body {
+  font-family: "Lato", "san-serif";
+}
+.activeBars {
+  display: none;
+  .md(display , block);
+}
+
+.activeMenuBars {
+  display: block;
+  .md(display , none);
+}
+.errorMsg {
+  color: rgb(255, 0, 0);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 10px;
+  display: none;
+}
+p.text{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  padding-top: 20px;
+  color: #3C2769;
+  .sm-block({
+    font-size: 12px;
+    line-height: 20px;
+  })
+}
+h2.title{
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  margin-top: 24px;
+  text-align: center;
+  color: black;
+  .sm-block({
+    font-size: 30px;
+    line-height: 40px;
+  })
+}
+h3.uno{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 25px;
+  color: black;
+  .md-block({
+    text-align: center;
+  })
+}

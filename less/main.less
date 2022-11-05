@@ -1,0 +1,139 @@
+main{
+    width: 100%;
+    margin-top: 150px;
+    .books{
+      text-align: center;
+      button{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      padding: 4px 12px;
+      color: #202939;
+      background: #EDEBF7;
+      border: none;
+      border-radius: 24px;
+      }
+      p.text{
+        text-align: center;
+        color: #202939;
+      }
+      .size{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #202939;
+        padding: 17px 33px;
+        margin-top: 37px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 64px;
+        &:hover{
+          background-color: #3C2769;
+          transition: 1s;
+          border: none;
+        }
+      } 
+            
+    }
+    .box{
+        width: 100%;
+        margin-top: 80px;
+        padding-bottom: 30px;
+        background: #F3F5F7;
+        border-radius: 16px;
+        .sm-block({
+         width: 100%;
+        });
+        img{
+          width: 100%;
+          padding-top: 20px;
+          .md-block({
+             width: 100%;
+          });
+          .sm-block({
+           width: 100%;
+          })
+        }
+        .center{
+          padding: 0px 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h4{
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            color: #202939;
+          }
+          span{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #697586;
+          }
+        }
+        p.text{
+        margin: 0;
+        padding-top: 10px ;
+        padding-left: 20px;
+        color: #697586;
+        }
+       .bot{
+        margin-top: 10px;
+        text-align: center;
+        .sm-block({
+          text-align: left;
+          padding-left: 20px;
+          margin-top: 20px;
+        });
+        button{
+          padding: 17px 120px;
+          border-radius: 65px;
+          border: none;
+          .sm-block({
+            padding: 10px 30px;
+          });
+          &:hover{
+            cursor: pointer;
+            background-color: #3C2769;
+            transition: 1s;
+            color: white;
+          }
+        }
+       }
+    }
+    .car{
+        width: 100%;
+        margin-top: 100px;
+        text-align: center;
+        background: #F3F5F7;
+        border-radius: 24px;
+        h4{
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 42px;
+            padding-top: 60px;
+        }
+        p.text{
+            text-align: center;
+        }
+        button{
+            margin-top: 37px;
+            background-color: white;
+            color: black;
+            padding: 9px 21px;
+            border: none;
+            border-radius: 24px;
+            &:hover{
+                cursor: pointer;
+                background-color: #3C2769;
+                color: white;
+                transition: 1s;
+            }
+        }
+        img{
+            margin-top: 30px;
+            width: 100%;
+        }
+    }
+}
